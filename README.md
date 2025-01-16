@@ -1,7 +1,6 @@
-```markdown
 # GitHub Template Repository
 
-Welcome to the official GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
 
 ---
 
@@ -81,4 +80,3 @@ This project template is licensed under the [MIT License](LICENSE). Customize th
 ---
 
 Happy coding! 🚀
-```
