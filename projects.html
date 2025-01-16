@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Academic Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            color: #2196F3;
+            margin-bottom: 1rem;
+        }
+
+        .project-description {
+            margin-bottom: 1.5rem;
+        }
+
+        .key-features {
+            margin-bottom: 1.5rem;
+        }
+
+        .key-features h4 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .key-features ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .key-features li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .key-features li::before {
+            content: "•";
+            color: #2196F3;
+            position: absolute;
+            left: 0;
+        }
+
+        .skills-section {
+            margin-top: 1.5rem;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .skill-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-title-group {
+            flex-grow: 1;
+        }
+
+        .project-timeline {
+            font-size: 0.9rem;
+            color: #1976d2;
+            background: #e3f2fd;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .project-card {
+                padding: 1.5rem;
+            }
+
+            .project-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Projects</h2>
+        
+        <!-- Study Group Finder App -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title-group">
+                    <h3 class="project-title">Study Group Finder App</h3>
+                </div>
+                <span class="project-timeline">Jan 2024 - Present</span>
+            </div>
+            <div class="project-description">
+                <p>A comprehensive platform designed to help students find study partners for specific subjects, facilitating collaborative learning and academic success.</p>
+            </div>
+            <div class="key-features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li>User Profiles with academic major and course details</li>
+                    <li>Course Management system</li>
+                    <li>User Preferences matching</li>
+                    <li>Advanced Matching System based on compatibility</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h4>Technologies & Skills</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">User Authentication</span>
+                    <span class="skill-tag">RESTful APIs</span>
+                    <span class="skill-tag">Matching Algorithms</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grading Platform -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title-group">
+                    <h3 class="project-title">Grading Platform</h3>
+                </div>
+                <span class="project-timeline">Sep 2023 - Dec 2023</span>
+            </div>
+            <div class="project-description">
+                <p>A comprehensive grading platform that streamlines the grading process for instructors and provides clear grade visibility for students.</p>
+            </div>
+            <div class="key-features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Instructor Dashboard with course management</li>
+                    <li>Student Portal with progress tracking</li>
+                    <li>Automated Grade Calculation</li>
+                    <li>Integrated Feedback System</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h4>Technologies & Skills</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">Vue.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Data Visualization</span>
+                    <span class="skill-tag">Authentication</span>
+                    <span class="skill-tag">Real-time Updates</span>
+                    <span class="skill-tag">Dashboard Design</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Campus Navigation System -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title-group">
+                    <h3 class="project-title">Campus Navigation System</h3>
+                </div>
+                <span class="project-timeline">May 2023 - Aug 2023</span>
+            </div>
+            <div class="project-description">
+                <p>A user-friendly navigation system specifically designed for TTU campus, helping students locate essential services and navigate efficiently.</p>
+            </div>
+            <div class="key-features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Interactive Campus Map with multiple views</li>
+                    <li>Service Locator with detailed information</li>
+                    <li>Categorized Service Directory</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h4>Technologies & Skills</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">Google Maps API</span>
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Geolocation</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Mobile Development</span>
+                    <span class="skill-tag">Location Services</span>
+                    <span class="skill-tag">Maps Integration</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mental Health Support App -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title-group">
+                    <h3 class="project-title">Mental Health Support App</h3>
+                </div>
+                <span class="project-timeline">Jan 2023 - Apr 2023</span>
+            </div>
+            <div class="project-description">
+                <p>A centralized platform providing mental health resources and support services for TTU students, making it easier to access appropriate help.</p>
+            </div>
+            <div class="key-features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Comprehensive Resource Directory</li>
+                    <li>Appointment Scheduler</li>
+                    <li>Wellness Routine Tracker</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h4>Technologies & Skills</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Calendar Integration</span>
+                    <span class="skill-tag">Health Data Management</span>
+                    <span class="skill-tag">Privacy & Security</span>
+                    <span class="skill-tag">API Integration</span>
+                    <span class="skill-tag">Cross-platform Development</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Job Application Tracker -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title-group">
+                    <h3 class="project-title">Job Application Tracker</h3>
+                </div>
+                <span class="project-timeline">Sep 2022 - Dec 2022</span>
+            </div>
+            <div class="project-description">
+                <p>A comprehensive tool for students to manage their job applications, track progress, and prepare for interviews effectively.</p>
+            </div>
+            <div class="key-features">
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Application Dashboard with status tracking</li>
+                    <li>Deadline Reminder System</li>
+                    <li>Document Management</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h4>Technologies & Skills</h4>
+                <div class="skills-grid">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Cloud Storage</span>
+                    <span class="skill-tag">Notification System</span>
+                    <span class="skill-tag">Document Processing</span>
+                    <span class="skill-tag">State Management</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
