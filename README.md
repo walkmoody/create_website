@@ -76,6 +76,7 @@ Once you have pushed your work to GitHub, submit the repository link as per the 
 
 ### ⚖️ License  
 This project template is licensed under the [MIT License](LICENSE).
+
 ---
 
-Happy coding! 🚀
+Celebrate and enjoy your coding experience! 🚀
