@@ -75,8 +75,7 @@ Once you have pushed your work to GitHub, submit the repository link as per the 
 ---
 
 ### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE). Customize the license for your project as needed.
-
+This project template is licensed under the [MIT License](LICENSE).
 ---
 
 Happy coding! 🚀
